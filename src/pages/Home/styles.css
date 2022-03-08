@@ -1,0 +1,150 @@
+.home-container {
+  background: #00285F;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #FFF;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container img {
+  width: 81%;
+  margin-top: 62px;
+}
+
+.home-content-container h1 {
+  font-size: 22px;
+  text-align: center;
+  margin: 35px 20px 13px 20px;
+}
+
+.home-content-container p {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin: 0 25px 50px 25px;
+}
+
+.link-container {
+  background: #EDEDED;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-container a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  background: #00285F;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 12px 37px;
+  margin-top: 28px;
+  margin-bottom: 9px;
+}
+
+.link-container p {
+  font-size: 18px;
+  line-height: 21px;
+  color: #585858;
+  ;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    margin: 30px 20px;
+  }
+
+  .home-container img {
+    width: 62%;
+    margin-top: 22px;
+  }
+
+  .home-content-container h1 {
+    font-size: 36px;
+    margin-top: 19px;
+    margin-bottom: 5px;
+  }
+
+  .home-content-container p {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0px 70px 41px 70px;
+  }
+
+  .link-container {
+    height: 123px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .link-container a {
+    margin: 0px 16px 0px 85px;
+  }
+
+  .link-container p {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-container img {
+    width: 47%;
+    margin-top: 79px;
+  }
+
+  .home-content-container h1 {
+    margin-top: 37px;
+    margin-bottom: 5px;
+  }
+
+  .home-content-container p {
+    margin: 0px 140px 76px 140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container img {
+    width: 48.7%;
+    margin-top: 82px;
+  }
+
+  .home-content-container h1 {
+    margin-top: 17px;
+  }
+
+  .home-content-container p {
+    margin: 0px 240px 124px 240px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-container {
+    margin: 30px 150px;
+    flex-direction: row-reverse;
+  }
+
+  .home-container img {
+    width: 34%;
+    margin: 83px 78px 83px 0px;
+  }
+
+  .home-content-container h1 {
+    margin: 0px 63px 0px 85px;
+  }
+
+  .home-content-container p {
+    margin: 5px 63px 0px 85px;
+    text-align: left;
+  }
+
+  .link-container {
+    margin: 0px 150px 0px 150px;
+  }
+}
