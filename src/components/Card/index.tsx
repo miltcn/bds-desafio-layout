@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CarCard from "../../assets/images/car-card.png";
 import "./styles.css";
 
@@ -12,7 +13,7 @@ function Card() {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
         nisi
       </p>
-      <a href="/">COMPRAR</a>
+      <Link to="/">COMPRAR</Link>
     </div>
   );
 }
