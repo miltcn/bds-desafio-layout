@@ -6,7 +6,23 @@ const Catalogo = () => {
   return (
     <>
       <Buscar />
-      <Card />
+      <div className="items-container">
+        <div className="items">
+          <Card />
+        </div>
+        <div className="items">
+          <Card />
+        </div>
+        <div className="items">
+          <Card />
+        </div>
+        <div className="items">
+          <Card />
+        </div>
+        <div className="items">
+          <Card />
+        </div>
+      </div>
     </>
   );
 };
