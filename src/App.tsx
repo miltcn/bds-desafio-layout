@@ -1,13 +1,11 @@
 import "./assets/styles/custom.scss";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Catalogo from "./pages/Catalago";
+import Routers from "Routers";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Catalogo />
+      <Routers />
     </>
   );
 }
